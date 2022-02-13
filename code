@@ -1,0 +1,9 @@
+p_drome=input("Enter a word:")
+word= list(p_drome)
+r_word=reversed(p_drome)
+reverse_word=list(r_word)
+if reverse_word== word:
+    print("the given word is a palindrome")
+else:
+    print("the given word is not a palindrome")
+   
